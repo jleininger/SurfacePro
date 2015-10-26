@@ -1,11 +1,8 @@
 $(document).ready(function() {
-	if(localStorage.getItem('navigation') === null) {
-		$.get('Assets/Templates/Navigation.html', function(data) {
-			localStorage.setItem('navigation', data);
-			loadNavigation();
-		});
-	}
-	else loadNavigation();
+	$.get('Assets/Templates/Navigation.html', function(data) {
+		localStorage.setItem('navigation', data);
+		loadNavigation();
+	});
 });
 
 function loadNavigation() {
