@@ -188,3 +188,97 @@ nav[role="navigation"] .selected {
     width: 75px;
     background-image: url("/Assets/Images/Cindr-background.jpg");
 }
+
+nav[role="navigation"] .profilePic {
+	display: inline-block;
+	border-radius: 50%;
+	height: 45px;
+	margin-top: 10px;
+	width: 45px;
+	background-color: #eee;
+}
+
+nav[role="navigation"] .name {
+	display: inline-block;
+	float: right;
+	color: #fff;
+	height: 67px;
+	line-height: 67px;
+	padding-bottom: 30px;
+	margin-left: 10px;
+	width: 130px;
+	cursor: pointer;
+}
+
+nav[role="navigation"] .dropdown {
+	display: none;
+}
+
+.mingleLeft {
+	float:left;
+	width: 50%;
+	height: calc(100vh - 67px);
+	border-right: 1px solid black;
+}
+
+.mingleLeft .mingleProfileInfo {
+	margin: 80px auto;
+	text-align: center;
+}
+
+.mingleLeft .mingleProfileInfo img {
+	margin: auto;
+}
+
+.mingleProfileInfo h2 {
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.mingleLeft .mingleVoteBar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 135px;
+	margin-bottom: 80px;
+}
+
+.mingleVoteBar .voteNope,
+.mingleVoteBar .moreInfo,
+.mingleVoteBar .voteYes {
+	display: inline-block;
+	margin-left: 120px;
+	width: 95px;
+	float: left;
+	font-size: 100px;
+	cursor: pointer;
+}
+
+.voteNope {
+	color: #ff5d55;
+}
+.voteNope:hover .underTxt {
+	display: block;
+}
+.moreInfo {
+	color: #3d8af7;
+	margin-left: 210px;
+}
+.moreInfo:hover .underTxt {
+	display: block;
+}
+.voteYes {
+	color: #92d36e;
+	margin-left: 420px;
+}
+.voteYes:hover .underTxt {
+	display: block;
+}
+
+.underTxt {
+	display: none;
+	text-align: center;
+	width: 80px;
+	font-size: 16px;
+}
