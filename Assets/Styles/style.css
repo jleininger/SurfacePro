@@ -10,6 +10,16 @@ h1 {
     margin: 0 auto;
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+
 .background-image {
     background-image: url("../Images/Cindr-background.jpg");
     position: relative;
@@ -329,7 +339,6 @@ nav[role="navigation"] .dropdown {
 	font-size: 16px;
 }
 
-<<<<<<< HEAD
 .profile-view {
     text-align: center;
 }
@@ -338,14 +347,34 @@ nav[role="navigation"] .dropdown {
     margin: 0 auto;
 }
 
+.profile-view input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.profile-edit-btn {
+    margin: 50px 0 0 50px;
+    border: none;
+    background-color: #006e8c;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
+
 .profile-view .profile-pic {
-    margin: 50px auto;
+    margin: 0px auto;
     height: 420px;
     width: 420px;
     border: 1px solid black;
     border-radius: 100%;
     background-image: url("../Images/nathan_fielder.jpg");
     background-position: 40% 30%;
+}
 
 .mingleRight aside {
 	background-color: #deebef;
