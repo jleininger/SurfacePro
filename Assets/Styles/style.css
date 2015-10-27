@@ -218,7 +218,7 @@ nav[role="navigation"] .selected {
     background-color: #008800;
     color: #FFFFFF;
     border-radius: 5px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .watch-together .movie-selection .thumbnail-row {
@@ -329,7 +329,6 @@ nav[role="navigation"] .dropdown {
 	font-size: 16px;
 }
 
-<<<<<<< HEAD
 .profile-view {
     text-align: center;
 }
@@ -339,13 +338,14 @@ nav[role="navigation"] .dropdown {
 }
 
 .profile-view .profile-pic {
-    margin: 50px auto;
-    height: 420px;
-    width: 420px;
-    border: 1px solid black;
-    border-radius: 100%;
-    background-image: url("../Images/nathan_fielder.jpg");
-    background-position: 40% 30%;
+	margin: 50px auto;
+	height: 420px;
+	width: 420px;
+	border: 1px solid black;
+	border-radius: 100%;
+	background-image: url("../Images/nathan_fielder.jpg");
+	background-position: 40% 30%;
+}
 
 .mingleRight aside {
 	background-color: #deebef;
