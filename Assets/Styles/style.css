@@ -389,3 +389,53 @@ nav[role="navigation"] .dropdown {
 .submitBtn:hover i {
 	color: #ddd;
 }
+
+.column-wrap {
+	margin: auto;
+	width: 90%;
+}
+
+.column {
+	height: calc(100vh - 150px);
+	margin-top: 25px;
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+	margin-left: 3%;
+	border: black 1px solid;
+	overflow-y: scroll;
+}
+
+.column:last-child {
+	margin-right: 0;
+}
+
+.column h2 {
+	background-color: #008db1;
+	padding: 20px;
+	color: #fff;
+	margin: 0;
+}
+
+.row {
+	height: 80px;
+	width: 100%;
+	clear: both;
+}
+
+.row img {
+	float: left;
+	margin: 15px;
+}
+
+.row .matchName {
+	margin-top: 15px;
+	float: right;
+	width: calc(100% - 80px);
+}
+
+.row .matchContent {
+	float: right;
+	margin-top: 8px;
+	width: calc(100% - 80px);
+}
