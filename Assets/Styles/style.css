@@ -245,6 +245,10 @@ nav[role="navigation"] .selected {
     display: inline-block;
 }
 
+.watch-together .movie-selection .thumbnail:hover {
+    border: 2px solid blue;
+}
+
 nav[role="navigation"] .profilePic {
 	display: inline-block;
 	border-radius: 50%;
