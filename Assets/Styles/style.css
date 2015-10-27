@@ -294,7 +294,7 @@ nav[role="navigation"] .dropdown {
 .mingleVoteBar .moreInfo,
 .mingleVoteBar .voteYes {
 	display: inline-block;
-	margin-left: 120px;
+	margin-left: 180px;
 	width: 95px;
 	float: left;
 	font-size: 100px;
@@ -329,6 +329,7 @@ nav[role="navigation"] .dropdown {
 	font-size: 16px;
 }
 
+<<<<<<< HEAD
 .profile-view {
     text-align: center;
 }
@@ -345,4 +346,110 @@ nav[role="navigation"] .dropdown {
     border-radius: 100%;
     background-image: url("../Images/nathan_fielder.jpg");
     background-position: 40% 30%;
+
+.mingleRight aside {
+	background-color: #deebef;
+	width: 100px;
+	float: left;
+	height: calc(100vh - 67px);
+}
+
+.mingleRight aside img {
+	margin: 25px 25px 0;
+	cursor: pointer;
+}
+
+.mingleRight aside img:hover {
+	border: 3px solid #006e8c;
+	margin: 22px 22px -3px;
+}
+
+.mingleRight section {
+	float: right;
+	width: calc(100vw - 50% - 120px);
+}
+
+.mingleRight section > div:first-child {
+	padding-top: 0;
+}
+
+.mingleRight section > div {
+	width: 80%;
+	margin: 35px 10%;
+	clear: both;
+	padding-top: 35px;
+}
+
+.mingleRight section > div:last-child {
+	margin-bottom: 0;
+}
+
+.mingleRight section div img {
+	border: 2px solid #ddd;
+}
+
+.mingleRight section div:nth-child(odd) img {
+	float: left;
+	margin-right: 25px;
+}
+
+.mingleRight section div:nth-child(even) img {
+	float: right;
+	margin-left: 25px;
+}
+
+.talkBox {
+	background-color: #eeeeee;
+	padding: 20px;
+	width: calc(100% - 150px);
+	display: inline-block;
+}
+
+.talkBox:nth-child(odd) {
+	float:right;
+}
+.talkBox:nth-child(even) {
+	float: left;
+}
+
+.submitbox {
+	height: 60px;
+	border: 1px solid black;
+	padding-top: 0 !important;
+	margin: 0;
+	position: absolute;
+	bottom: 15px;
+	right: -80px;
+	max-width: 650px;
+}
+
+.submitbox textarea {
+	margin: 0;
+	padding: 10px;
+	border: 0;
+	width: calc(100% - 71px);
+	height: 40px;
+	resize: none;
+}
+
+.submitBtn {
+	background-color: #008db1;
+	float: right;
+	width: 50px;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	border-left: solid 1px black;
+	cursor: pointer;
+}
+
+.submitBtn i {
+	color: #fff;
+	font-size: 36px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+
+.submitBtn:hover i {
+	color: #ddd;
 }
