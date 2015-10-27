@@ -12,7 +12,9 @@
 <body>
 	<nav role="navigation"></nav>
 	
-	<a href="/profile-edit.html" class="button profile-edit-btn">Edit Profile</a>
+	<form action="/profile-edit.html">
+	    <button type="submit" class="profile-edit-btn">Edit Profile</button>
+	</form>
 	
 	<div class="profile-view">
 	    <div class="profile-pic"></div>
@@ -22,17 +24,21 @@
 	    <h3>32</h3>
 	    <h1>Description:</h1>
 	    <p>I graduated from one of Canada's top business schools with really good grades</p>
-	    <div>
-	        <h1>Gender</h1>
-	        <h3>Male</h3>
-	        <h1>Interested in:</h1>
-	        <h3>Female</h3>
+	    <div class="inline-info">
+	        <div>
+	            <h1>Gender</h1>
+	            <h3>Male</h3>
+	        </div>
+	        <div>
+	            <h1>Interested in:</h1>
+	            <h3>Female</h3>
+	        </div>
 	    </div>
 	    <h1>Media Favorites:</h1>
 	    <table>
 	        <tr>
-	            <td>Television</td>
-	            <td>Movies</td>
+	            <th>Television</th>
+	            <th>Movies</th>
 	        </tr>
 	        <tr>
 	            <td>Spongebob</td>
