@@ -36,13 +36,23 @@ h1 {
     z-index: 100;
 }
 
+.background-image h2 {
+    color: #fff;
+    margin: 50px 0 0 0;
+    position: relative;
+    z-index: 100;
+}
+
+.background-image .sign-up {
+    margin: 100px 0 20px 0;
+}
+
 .background-image form {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
     text-align: center;
-    top: 20%;
     z-index: 100;
 }
 
@@ -55,6 +65,7 @@ h1 {
 .background-image form input {
     height: 20px;
     width: 200px;
+    border-radius: 5px;
     margin-bottom: 5px;
 }
 
@@ -64,7 +75,7 @@ h1 {
     display: block;
     color: #FFFFFF;
     height: 30px;
-    background-color: #FF324C;
+    background-color: #008db1;
     margin: 20px auto;
     outline: none;
 }
@@ -349,6 +360,13 @@ nav[role="navigation"] .dropdown {
     border-radius: 5px;
     text-align: center;
     font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
+.profile-view .fa-plus {
+    color: #1cbc32;
+    cursor: pointer;
+    font-size: 1.25em;
 }
 
 .profile-view textarea {
@@ -379,6 +397,18 @@ nav[role="navigation"] .dropdown {
     border-radius: 100%;
     background-image: url("../Images/nathan_fielder.jpg");
     background-position: 40% 30%;
+}
+
+.profile-view .profile-pic button {
+    position: relative;
+    top: 80%;
+    border: none;
+    background-color: #006e8c;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 160px;
 }
 
 .profile-view .move-down {
