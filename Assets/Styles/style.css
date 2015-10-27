@@ -228,7 +228,7 @@ nav[role="navigation"] .selected {
     background-color: #008800;
     color: #FFFFFF;
     border-radius: 5px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .watch-together .movie-selection .thumbnail-row {
@@ -378,6 +378,13 @@ nav[role="navigation"] .dropdown {
     border-radius: 100%;
     background-image: url("../Images/nathan_fielder.jpg");
     background-position: 40% 30%;
+	margin: 50px auto;
+	height: 420px;
+	width: 420px;
+	border: 1px solid black;
+	border-radius: 100%;
+	background-image: url("../Images/nathan_fielder.jpg");
+	background-position: 40% 30%;
 }
 
 .mingleRight aside {
@@ -485,4 +492,54 @@ nav[role="navigation"] .dropdown {
 
 .submitBtn:hover i {
 	color: #ddd;
+}
+
+.column-wrap {
+	margin: auto;
+	width: 90%;
+}
+
+.column {
+	height: calc(100vh - 150px);
+	margin-top: 25px;
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+	margin-left: 3%;
+	border: black 1px solid;
+	overflow-y: scroll;
+}
+
+.column:last-child {
+	margin-right: 0;
+}
+
+.column h2 {
+	background-color: #008db1;
+	padding: 20px;
+	color: #fff;
+	margin: 0;
+}
+
+.row {
+	height: 80px;
+	width: 100%;
+	clear: both;
+}
+
+.row img {
+	float: left;
+	margin: 15px;
+}
+
+.row .matchName {
+	margin-top: 15px;
+	float: right;
+	width: calc(100% - 80px);
+}
+
+.row .matchContent {
+	float: right;
+	margin-top: 8px;
+	width: calc(100% - 80px);
 }
