@@ -7,10 +7,26 @@
 	<link type="text/css" rel="stylesheet" href="Assets/Styles/style.css" />
 
 	<script src="Assets/Scripts/jquery-2.1.4.min.js"></script>
-	<script src="Assets/Scripts/main.js"></script>
 </head>
 <body>
-	<nav role="navigation"></nav>
+	<nav role="navigation"><div class="pull-left">
+		<a href="home.html"><h1 class="identity">Cindr</h1></a>
+		<ul class="nav">
+			<a href="home.html"><li>Dashboard</li></a>
+			<a href="profile-view.html"><li>My Profile</li></a>
+			<a href="mingle.html"><li>Mingle</li></a>
+			<a href="watch-together.html"><li class="selected">Watch Together</li></a>
+		</ul>
+	</div>
+		<div class="pull-right">
+			<div class="profilePic"><img src="Assets/Images/nathan_fielder.jpg" /></div>
+			<span class="name">Welcome, Nathan fielder!<br /><i>(Not Nathan? <a href="login.html">Click here to logout</a>)</i></span>
+			<ul class="dropdown">
+				<li><a href="profile-view.html">View Profile</a></li>
+				<li><a href="profile-edit.html">Edit Profile</a></li>
+				<li><a href="landing-page.html">Sign Out</a></li>
+			</ul>
+		</div></nav>
 	
 	<div class="watch-together">
 	    <div class="left-side-bar">

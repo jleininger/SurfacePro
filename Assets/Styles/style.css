@@ -188,7 +188,6 @@ nav[role="navigation"] .selected {
 
 .watch-together .movie-selection {
     display: inline-block;
-    height: 100%;
     width: 80%;
     position: absolute;
     right: 0;
@@ -253,48 +252,48 @@ nav[role="navigation"] .selected {
 }
 
 nav[role="navigation"] .profilePic {
-	display: inline-block;
-	border-radius: 50%;
-	height: 45px;
-	margin-top: 10px;
-	width: 45px;
-	background-color: #eee;
+display: inline-block;
+border-radius: 50%;
+height: 45px;
+margin-top: 10px;
+width: 45px;
+background-color: #eee;
 }
 
 nav[role="navigation"] .pull-right {
-	max-height: 67px;
+max-height: 67px;
 }
 
 nav[role="navigation"] .profilePic img {
-	height: 45px;
-	width: 45px;
-	border-radius: 50%;
+height: 45px;
+width: 45px;
+border-radius: 50%;
 }
 
 nav[role="navigation"] .name {
-	display: inline-block;
-	float: right;
-	color: #fff;
-	height: 67px;
-	line-height: 22px;
-	padding-bottom: 30px;
-	margin-left: 10px;
-	width: 200px;
-	cursor: pointer;
-	margin-top: 10px;
+display: inline-block;
+float: right;
+color: #fff;
+height: 67px;
+line-height: 22px;
+padding-bottom: 30px;
+margin-left: 10px;
+width: 200px;
+cursor: pointer;
+margin-top: 10px;
 }
 
 nav[role="navigation"] .name i {
-	font-size: 12px;
+font-size: 12px;
 }
 
 nav[role="navigation"] .name i a {
-	color: #00D8FF;
-	margin: 0;
+color: #00D8FF;
+margin: 0;
 }
 
 nav[role="navigation"] .dropdown {
-	display: none;
+display: none;
 }
 
 .mingleLeft {
@@ -432,7 +431,8 @@ nav[role="navigation"] .dropdown {
 }
 
 .profile-view .move-down {
-    margin-top: 100px;
+    margin: 50px 0 20px 0;
+    font-size: 2.5em;
 }
 
 .profile-view .inline-info div {
