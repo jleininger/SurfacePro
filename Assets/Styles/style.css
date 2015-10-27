@@ -244,16 +244,36 @@ nav[role="navigation"] .profilePic {
 	background-color: #eee;
 }
 
+nav[role="navigation"] .pull-right {
+	max-height: 67px;
+}
+
+nav[role="navigation"] .profilePic img {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+}
+
 nav[role="navigation"] .name {
 	display: inline-block;
 	float: right;
 	color: #fff;
 	height: 67px;
-	line-height: 67px;
+	line-height: 22px;
 	padding-bottom: 30px;
 	margin-left: 10px;
-	width: 130px;
+	width: 200px;
 	cursor: pointer;
+	margin-top: 10px;
+}
+
+nav[role="navigation"] .name i {
+	font-size: 12px;
+}
+
+nav[role="navigation"] .name i a {
+	color: #00D8FF;
+	margin: 0;
 }
 
 nav[role="navigation"] .dropdown {
