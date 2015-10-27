@@ -139,7 +139,6 @@ nav[role="navigation"] .selected {
     position: fixed;
     text-align: center;
     padding: 10px;
-    position: relative;
     display: inline-block;
 }
 .watch-together .left-side-bar .profile-pic {
@@ -148,6 +147,8 @@ nav[role="navigation"] .selected {
     border-radius: 100%;
     border: 1px solid #000000;
     margin: 20px auto;
+    background-image: url("../Images/Punjabi_old_woman.JPG");
+    background-size: 99% 99%;
 }
 
 .watch-together .left-side-bar .watch-button-group {
@@ -176,17 +177,62 @@ nav[role="navigation"] .selected {
 .watch-together .movie-selection {
     display: inline-block;
     height: 100%;
+    width: 80%;
     position: absolute;
+    right: 0;
 }
 
 .watch-together .movie-selection .header {
     margin: 30px 0 0 30px;
 }
 
+.watch-together .movie-selection .header .title {
+    margin: 30px 0 0 0;
+    display: inline-block;
+}
+
+.watch-together .movie-selection .header .request-a-date {
+    display: inline-block;
+    position: relative;
+    left: 38%;
+}
+
+.watch-together .movie-selection .header .request-a-date div {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+
+.watch-together .movie-selection .header .request-a-date div h2 {
+    margin: 0;
+    color: #c9f1fd;
+}
+
+.watch-together .movie-selection .header .request-a-date button {
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: #008800;
+    color: #FFFFFF;
+    border-radius: 5px;
+    vertical-align: center;
+}
+
+.watch-together .movie-selection .thumbnail-row {
+    margin-top: 10px;
+}
+
 .watch-together .movie-selection .thumbnail {
-    height: 150px;
-    width: 75px;
-    background-image: url("/Assets/Images/Cindr-background.jpg");
+    height: 220px;
+    width: 158px;
+    background-image: url("/Assets/Images/Passion-of-the-Christ.jpg");
+    background-size: contain;
+    border-radius: 5px;
+    margin: 20px 20px 0 20px;
+    display: inline-block;
 }
 
 nav[role="navigation"] .profilePic {
@@ -281,4 +327,22 @@ nav[role="navigation"] .dropdown {
 	text-align: center;
 	width: 80px;
 	font-size: 16px;
+}
+
+.profile-view {
+    text-align: center;
+}
+
+.profile-view table {
+    margin: 0 auto;
+}
+
+.profile-view .profile-pic {
+    margin: 50px auto;
+    height: 420px;
+    width: 420px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-image: url("../Images/nathan_fielder.jpg");
+    background-position: 40% 30%;
 }
