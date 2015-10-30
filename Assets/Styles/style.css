@@ -4,6 +4,7 @@ html, body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    background-color: #eee;
 }
 
 h1 {
@@ -371,6 +372,7 @@ display: none;
 
 .profile-view table {
     margin: 0 auto;
+    border-radius: 3px;
 }
 
 .profile-view input {
@@ -391,6 +393,7 @@ display: none;
 .profile-view textarea {
     text-align: center;
     font-size: 16px;
+    border-radius: 3px;
 }
 
 .profile-edit-btn {
@@ -441,7 +444,12 @@ display: none;
 }
 
 .profile-view {
-    margin-bottom: 50px;   
+    margin-bottom: 50px;  
+    margin-top: 25px;
+}
+
+.profile-view h1:first-child {
+    margin-bottom: 25px;
 }
 
 .profile-view table th, td {
@@ -455,6 +463,29 @@ display: none;
 
 .profile-view table, td, th {
     border: 1px solid #006e8c;
+    background-color: #fff;
+}
+
+.profile-view .fa-pencil {
+    display: none;
+    cursor: pointer;
+}
+
+.profile-view h3:hover .fa-pencil,
+.profile-view h1:hover .fa-pencil,
+.profile-view p:hover .fa-pencil,
+.profile-view .fa-pencil:hover {
+    color: #000;
+    display: inline-block;
+}
+
+.profile-view h3:hover, 
+.profile-view p:hover {
+    margin-left: 20px;
+}
+
+.profile-view .gabby:hover {
+    margin-left: 36px;
 }
 
 .mingleRight aside {
@@ -509,7 +540,7 @@ display: none;
 }
 
 .talkBox {
-	background-color: #eeeeee;
+	background-color: #fff;
 	padding: 20px;
 	width: calc(100% - 150px);
 	display: inline-block;
@@ -577,7 +608,12 @@ display: none;
 	margin-right: 5%;
 	margin-left: 3%;
 	border: black 1px solid;
-	overflow-y: scroll;
+}
+
+.column .content {
+    overflow-y: scroll;
+    min-height: calc(100% - 68px);
+    max-height: calc(100% - 68px);
 }
 
 .column:last-child {
@@ -585,7 +621,7 @@ display: none;
 }
 
 .column h2 {
-	background-color: #008db1;
+	background-color: #006e8c;
 	padding: 20px;
 	color: #fff;
 	margin: 0;
